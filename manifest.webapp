@@ -1,0 +1,32 @@
+{
+  "version": "1.0.1",
+  "name": "Hosted App",
+  "description": "A template for hosted kaiOS app",
+  "type": "web",
+  "launch_path": "/",
+  "icons": {
+    "56": "/assets/appicon@56w.png",
+    "112": "/assets/appicon@112w.png",
+    "128": "/assets/appicon@128w.png"
+  },
+  "developer": {
+    "name": "Victorien",
+    "url": "https://victorien.net"
+  },
+  "locales": {
+    "en-GB": {
+      "name": "Hosted App",
+      "subtitle": "Devellop on kaiOS",
+      "description": "A template for hosted kaiOS app"
+    }
+  },
+  "default_locale": "en-GB",
+  "permissions": {
+    "geolocation": {
+      "description": "Required to find your location"
+    }
+  },
+  "fullscreen": "true",
+  "cursor": "true",
+  "orientation": "portrait"
+}
